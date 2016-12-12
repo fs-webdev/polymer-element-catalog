@@ -28,9 +28,19 @@
     "app-router": "blasten/app-router#master",
     "pushstate-anchor": "~0.3.0",
     "color": "~2.5.0",
-    "hydrolysis": "PolymerLabs/hydrolysis#^1.11.0"
+    "hydrolysis": "PolymerLabs/hydrolysis#^1.11.0",
+    "fs-demo": "fs-webdev/fs-demo#^0.0.1",
+    "oak-ajax-behavior": "fs-webdev/oak-ajax-behavior#^1.0.0",
+    "core-elements": "fs-webdev/core-elements#^0.0.1",
+    "ui-elements": "fs-webdev/ui-elements#^0.0.1",
+    "tree-service-elements": "fs-webdev/tree-service-elements#^0.0.1"
   },
   "resolutions": {
-    "firebase": "^2.3.1"
+    "firebase": "^2.3.1",
+    "promise-polyfill": "^1.0.0",
+    "fs-labelled-link": "master",
+    "styles-wc": "^2.0.0",
+    "oak-ajax-behavior": "^1.0.0",
+    "fs-cache": "master"
   }
 }

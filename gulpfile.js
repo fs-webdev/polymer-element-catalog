@@ -99,6 +99,8 @@ gulp.task('elements', function () {
     .pipe($.size({title: 'elements'}));
 });
 
+gulp.task('install', ['styles', 'elements', 'catalog:dev']);
+
 // Scan Your HTML For Assets & Optimize Them
 gulp.task('html', function () {
   var assets = $.useref.assets({searchPath: ['.tmp', 'app', 'dist']});
