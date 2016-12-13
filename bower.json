@@ -30,7 +30,7 @@
     "color": "~2.5.0",
     "hydrolysis": "PolymerLabs/hydrolysis#^1.11.0",
     "fs-demo": "fs-webdev/fs-demo#^0.0.1",
-    "oak-ajax-behavior": "fs-webdev/oak-ajax-behavior#^1.0.0",
+    "oak-ajax-behavior": "fs-webdev/oak-ajax-behavior#master",
     "core-elements": "fs-webdev/core-elements#^0.0.1",
     "ui-elements": "fs-webdev/ui-elements#^0.0.1",
     "tree-service-elements": "fs-webdev/tree-service-elements#^0.0.1"
