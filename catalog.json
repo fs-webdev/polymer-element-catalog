@@ -3,21 +3,21 @@
     {
       "name":"core-elements",
       "title":"Core Elements",
-      "color":"#f16458",
+      "color":"rgba(241, 100, 88, 0.8)",
       "symbol":"Co",
       "tagline": "Core Elements"
     },
     {
       "name":"ui-elements",
       "title":"UI Elements",
-      "color":"#27c4f4",
+      "color":"rgba(39, 196, 244, 0.8)",
       "symbol": "Ui",
       "tagline":"UI Elements"
     },
     {
       "name":"tree-service-elements",
       "title":"Tree Service Elements",
-      "color":"#fcb34b",
+      "color":"rgba(252, 179, 75, 0.8)",
       "symbol": "Tr",
       "tagline":"Service Elements from Tree"
     }
