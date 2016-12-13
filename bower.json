@@ -41,6 +41,7 @@
     "fs-labelled-link": "master",
     "styles-wc": "^2.0.0",
     "oak-ajax-behavior": "^1.0.0",
-    "fs-cache": "master"
+    "fs-cache": "master",
+    "fs-person-data-service": "master"
   }
 }
