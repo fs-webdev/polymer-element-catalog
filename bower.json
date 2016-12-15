@@ -42,6 +42,9 @@
     "styles-wc": "^2.0.0",
     "oak-ajax-behavior": "^1.0.0",
     "fs-cache": "master",
-    "fs-person-data-service": "master"
+    "fs-person-data-service": "master",
+    "fs-person-card-service": "master",
+    "fs-life-events": "master",
+    "fs-tree-person-renderer": "master"
   }
 }
