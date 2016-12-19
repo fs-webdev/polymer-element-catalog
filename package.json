@@ -87,6 +87,7 @@
     "through2-reduce": "^0.3.0",
     "vinyl-fs": "^1.0.0",
     "web-component-tester": "^2.2.3",
-    "writestreamp": "^0.1.0"
+    "writestreamp": "^0.1.0",
+    "replace": "^0.3.0"
   }
 }
