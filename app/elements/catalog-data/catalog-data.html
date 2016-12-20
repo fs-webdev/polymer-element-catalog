@@ -1,8 +1,8 @@
-<link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="/components/iron-ajax/iron-ajax.html">
 
 <dom-module id="catalog-data">
   <template>
-    <iron-ajax id="req" url="/catalog.json" method="get" handle-as="json" on-response="_handleResponse"></iron-ajax>
+    <iron-ajax id="req" url="[[catalogUrl]]" method="get" handle-as="json" on-response="_handleResponse"></iron-ajax>
   </template>
 </dom-module>
 
@@ -48,6 +48,15 @@
         _els.splice(_els.indexOf(this), 1);
       },
       properties: {
+        catalogUrl: {
+          type: String,
+          value: function(){
+            if(window.top.APP_PATH){
+              return window.top.APP_PATH+'/catalog.json';
+            }
+            return '/catalog.json';
+          }
+        },
         packages: {
           type: Array,
           readOnly: true,
