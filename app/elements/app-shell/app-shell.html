@@ -38,6 +38,11 @@
           <app-route path="/browse" element="page-browse" bindRouter onUrlChange="updateModel"></app-route>
           <app-route path="/elements/:element" element="page-element" bindRouter onUrlChange="updateModel"></app-route>
           <app-route path="/guides/:name" element="page-guide" bindRouter></app-route>
+
+          <app-route path="/frontier/elements/" element="page-packages" bindRouter></app-route>
+          <app-route path="/frontier/elements/browse" element="page-browse" bindRouter onUrlChange="updateModel"></app-route>
+          <app-route path="/frontier/elements/elements/:element" element="page-element" bindRouter onUrlChange="updateModel"></app-route>
+          <app-route path="/frontier/elements/guides/:name" element="page-guide" bindRouter></app-route>
           <app-route path="*" element="page-not-found"></app-route>
         </app-router>
       </div>
