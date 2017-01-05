@@ -181,10 +181,12 @@
       }
     },
     docSrc: function(element) {
-      return "/data/docs/" + element + ".json";
+      var src = "/data/docs/" + element + ".json";
+      return (window.top.APP_PATH) ? window.top.APP_PATH + src : src ;
     },
     baseURI: function(element) {
-      return window.top.APP_PATH + "/components/" + element + "/" + element + ".html";
+      var url = window.top.APP_PATH || window.location.origin;
+      return url + "/bower_components/" + element + "/" + element + ".html";
     },
     search: function(q) {
       if (q || this.q) {

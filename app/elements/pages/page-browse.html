@@ -201,7 +201,7 @@
         }
       },
       _packageLink: function(name) {
-        return "/browse?package=" + name;
+        return "browse?package=" + name;
       },
       _qChanged: function(q) {
         if (q) {
@@ -218,7 +218,7 @@
         var qs = this._buildQueryString();
         if (qs !== _lastNavigated && this.router) {
           _lastNavigated = qs;
-          this.router.go('/browse' + (qs.length ? '?' + qs : ''), {replace: true});
+          this.router.go('browse' + (qs.length ? '?' + qs : ''), {replace: true});
         }
         this.updateMeta(packageName, this.packageInfo);
 
