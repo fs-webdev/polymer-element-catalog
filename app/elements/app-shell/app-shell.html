@@ -38,7 +38,7 @@
           <app-route path="/browse" element="page-browse" bindRouter onUrlChange="updateModel"></app-route>
           <app-route path="/elements/:element" element="page-element" bindRouter onUrlChange="updateModel"></app-route>
           <app-route path="/guides/:name" element="page-guide" bindRouter></app-route>
-
+          <app-route path="/frontier/elements" element="page-packages" bindRouter></app-route>
           <app-route path="/frontier/elements/" element="page-packages" bindRouter></app-route>
           <app-route path="/frontier/elements/browse" element="page-browse" bindRouter onUrlChange="updateModel"></app-route>
           <app-route path="/frontier/elements/elements/:element" element="page-element" bindRouter onUrlChange="updateModel"></app-route>
@@ -72,6 +72,9 @@
       if (this.query.length) this.$.router.go('/elements?q=' + this.query);
     },
     handleNav: function(_, nav) {
+      if(nav.url.indexOf(APP_PATH) === -1){
+        nav.url = nav.url.replace(location.origin,APP_PATH);
+      }
       this.$.router.go(nav.url);
       this.$.cartpanel.closeDrawer();
     },

@@ -184,7 +184,7 @@
       return "/data/docs/" + element + ".json";
     },
     baseURI: function(element) {
-      return window.location.origin + "/bower_components/" + element + "/" + element + ".html";
+      return window.top.APP_PATH + "/components/" + element + "/" + element + ".html";
     },
     search: function(q) {
       if (q || this.q) {

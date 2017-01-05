@@ -29,7 +29,7 @@
     "pushstate-anchor": "~0.3.0",
     "color": "~2.5.0",
     "hydrolysis": "PolymerLabs/hydrolysis#^1.11.0",
-    "fs-demo": "fs-webdev/fs-demo#^0.0.1",
+    "fs-demo": "fs-webdev/fs-demo#master",
     "oak-ajax-behavior": "fs-webdev/oak-ajax-behavior#master",
     "core-elements": "fs-webdev/core-elements#master",
     "ui-elements": "fs-webdev/ui-elements#master",
