@@ -72,12 +72,11 @@
       if (this.query.length) this.$.router.go('/elements?q=' + this.query);
     },
     handleNav: function(_, nav) {
-      console.log(window.top.APP_PATH);
-      console.log('BEFORE: ',nav.url);
-      if(nav.url.indexOf(window.top.APP_PATH) === -1){
-        nav.url = nav.url.replace(location.origin,window.top.APP_PATH);
+      debugger;
+      nav.url = nav.url.replace(location.origin,'');
+      if(window.top.APP_PATH){
+        nav.url = window.top.APP_PATH+nav.url;
       }
-      console.log('AFTER: ',nav.url);
       this.$.router.go(nav.url);
       this.$.cartpanel.closeDrawer();
     },
