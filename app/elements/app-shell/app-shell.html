@@ -72,7 +72,6 @@
       if (this.query.length) this.$.router.go('/elements?q=' + this.query);
     },
     handleNav: function(_, nav) {
-      debugger;
       nav.url = nav.url.replace(location.origin,'');
       if(window.top.APP_PATH){
         nav.url = window.top.APP_PATH+nav.url;
