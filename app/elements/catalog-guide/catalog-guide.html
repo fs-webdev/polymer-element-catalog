@@ -22,7 +22,8 @@
       return _guides[name];
     },
     getSrc: function(name) {
-      return "/data/guides/" + name + ".html";
+      var src = "/data/guides/" + name + ".html";
+      return (window.top.APP_PATH) ? window.top.APP_PATH + src : src ;
     },
     _didReceiveError: function(e) {
       this.fire('catalog-guide-error', e.detail);
