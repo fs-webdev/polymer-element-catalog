@@ -46,6 +46,7 @@
     "fs-life-events": "master",
     "fs-tree-person-renderer": "master",
     "fs-demo": "master",
-    "oak-ajax-behavior": "master"
+    "oak-ajax-behavior": "master",
+    "fs-user-service": "master"
   }
 }
