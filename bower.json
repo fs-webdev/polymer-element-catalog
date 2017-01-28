@@ -48,7 +48,8 @@
     "fs-demo": "master",
     "oak-ajax-behavior": "master",
     "fs-user-service": "master",
-    "fs-couple-renderer": "^0.0.3",
-    "fetch": "^2.0.1"
+    "fs-couple-renderer": "master",
+    "fetch": "^2.0.1",
+    "fs-person-card": "master"
   }
 }
