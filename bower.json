@@ -25,31 +25,18 @@
     "google-web-components": "git+https://github.com/GoogleWebComponents/google-web-components#^1.0.0",
     "molecules": "git+https://github.com/PolymerElements/molecules#^1.0.0",
     "polymer": "git+https://github.com/Polymer/polymer#^1.0.0",
-    "app-router": "git+https://github.com/blasten/app-router#master",
+    "app-router": "git+https://github.com/blasten/app-router#*",
     "pushstate-anchor": "~0.3.0",
     "color": "~2.5.0",
     "hydrolysis": "git+https://github.com/PolymerLabs/hydrolysis#^1.11.0",
-    "fs-demo": "git+https://github.com/fs-webdev/fs-demo#master",
-    "oak-ajax-behavior": "git+https://github.com/familysearchelements/oak-ajax-behavior#^1.0.7",
+    "fs-demo": "git+https://github.com/fs-webdev/fs-demo#*",
+    "oak-ajax-behavior": "git+https://github.com/familysearchelements/oak-ajax-behavior#*",
     "core-elements": "git+https://github.com/fs-webdev/core-elements#master",
     "ui-elements": "git+https://github.com/fs-webdev/ui-elements#master",
     "tree-service-elements": "git+https://github.com/fs-webdev/tree-service-elements#master"
   },
   "resolutions": {
-    "firebase": "^2.3.1",
-    "promise-polyfill": "^1.0.0",
-    "fs-labelled-link": "master",
-    "styles-wc": "^2.0.0",
-    "fs-cache": "master",
-    "fs-person-data-service": "master",
-    "fs-person-card-service": "master",
-    "fs-life-events": "master",
-    "fs-tree-person-renderer": "master",
-    "fs-demo": "master",
-    "oak-ajax-behavior": "master",
-    "fs-user-service": "master",
-    "fs-couple-renderer": "master",
-    "fetch": "^2.0.1",
-    "fs-person-card": "master"
+    "fs-cache": "~1.0.0-beta.8",
+    "fetch": "~2.0.3"
   }
 }
